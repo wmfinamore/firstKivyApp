@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+"kivy.deps.sdl2" = "*"
+"kivy.deps.glew" = "*"
+"kivy.deps.sdl2-dev" = "*"
+"kivy.deps.glew-dev" = "*"
+kivy = {extras = ["base"], version = "*"}
+
+[requires]
+python_version = "3.9"
