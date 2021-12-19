@@ -2,13 +2,13 @@ from kivy.app import App
 from kivy.uix.widget import Widget
 
 
-class PonGame(Widget):
+class PongGame(Widget):
     pass
 
 
 class PongApp(App):
     def build(self):
-        return PonGame()
+        return PongGame()
 
 
 if __name__ == '__main__':
